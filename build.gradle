@@ -19,6 +19,10 @@ repositories {
 }
 
 dependencies {
+	//jackson
+	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.13.0'
+	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.0'
+
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	runtimeOnly 'com.h2database:h2'
